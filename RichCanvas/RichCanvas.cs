@@ -35,40 +35,19 @@ namespace RichCanvas
         /// <inheritdoc/>
         protected override Size ArrangeOverride(Size arrangeSize)
         {
-            double minX = double.MaxValue;
-            double minY = double.MaxValue;
-            double maxX = double.MinValue;
-            double maxY = double.MinValue;
             foreach (UIElement child in InternalChildren)
             {
                 if (child is RichItemContainer container)
                 {
                     child.Arrange(new Rect(new Point(container.Left, container.Top), child.DesiredSize));
-
+                    var firstElement = InternalChildren[0] as RichItemContainer;
                     if (container.IsValid())
                     {
                         container.CalculateBoundingBox();
-
-                        minX = Math.Min(minX, container.BoundingBox.Left);
-                        minY = Math.Min(minY, container.BoundingBox.Top);
-                        maxX = Math.Max(maxX, container.BoundingBox.Right);
-                        maxY = Math.Max(maxY, container.BoundingBox.Bottom);
-                        if (container.BoundingBox.Bottom >= maxY)
-                        {
-                            BottomElement = container;
-                        }
-                        if (container.BoundingBox.Right >= maxX)
-                        {
-                            RightElement = container;
-                        }
-                        if (container.BoundingBox.Top <= minY)
-                        {
-                            TopElement = container;
-                        }
-                        if (container.BoundingBox.Left <= minX)
-                        {
-                            LeftElement = container;
-                        }
+                        BottomElement = firstElement;
+                        RightElement = firstElement;
+                        TopElement = firstElement;
+                        LeftElement = firstElement;
                     }
                 }
             }
