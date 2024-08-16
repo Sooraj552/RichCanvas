@@ -1,4 +1,4 @@
-﻿using RichCanvasToa.Gestures;
+﻿using RichCanvas.Gestures;
 using System;
 using System.Windows;
 using System.Windows.Controls;
@@ -6,7 +6,7 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 using System.Windows.Media;
 
-namespace RichCanvasToa
+namespace RichCanvas
 {
     /// <summary>
     /// Grid defining scrolling functionalty

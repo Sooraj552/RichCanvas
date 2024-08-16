@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows.Data;
 using System.Windows.Media;
 
-namespace RichCanvasToa.Converters
+namespace RichCanvas.Converters
 {
     public class BoolToGeometryConverter : IValueConverter
     {

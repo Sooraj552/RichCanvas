@@ -1,4 +1,4 @@
-﻿using RichCanvasToa.Helpers;
+﻿using RichCanvas.Helpers;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -6,7 +6,7 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 using System.Windows.Media;
 
-namespace RichCanvasToa
+namespace RichCanvas
 {
     /// <summary>
     /// Delegate used to notify when an <see cref="RichItemContainer"/> is dragged.

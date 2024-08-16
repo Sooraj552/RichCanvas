@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Media;
 
-namespace RichCanvasToa.Gestures
+namespace RichCanvas.Gestures
 {
     internal class Zoom
     {

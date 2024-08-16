@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace RichCanvasToa
+namespace RichCanvas
 {
     /// <summary>
     /// ItemsHost of <see cref="RichItemsControl"/>

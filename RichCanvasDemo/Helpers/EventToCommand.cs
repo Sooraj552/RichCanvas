@@ -1,5 +1,5 @@
 ﻿using Microsoft.Xaml.Behaviors;
-using RichCanvasToa;
+using RichCanvas;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Windows;

@@ -6,7 +6,7 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 using System.Windows.Media;
 
-namespace RichCanvasToa.Gestures
+namespace RichCanvas.Gestures
 {
     internal class Selecting
     {

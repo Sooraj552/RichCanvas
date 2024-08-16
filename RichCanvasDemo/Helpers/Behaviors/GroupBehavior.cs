@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xaml.Behaviors;
-using RichCanvasToa;
-using RichCanvasToa.Helpers;
+using RichCanvas;
+using RichCanvas.Helpers;
 using RichCanvasDemo.ViewModels;
 using RichCanvasDemo.ViewModels.Base;
 using RichCanvasDemo.ViewModels.Grouping;

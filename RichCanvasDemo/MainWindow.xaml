@@ -10,7 +10,7 @@
     xmlns:local="clr-namespace:RichCanvasDemo"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
-    xmlns:richCanvas="clr-namespace:RichCanvasToa;assembly=RichCanvasToa"
+    xmlns:richCanvas="clr-namespace:RichCanvas;assembly=RichCanvas"
     xmlns:views="clr-namespace:RichCanvasDemo.CustomControls"
     xmlns:vm="clr-namespace:RichCanvasDemo.ViewModels"
     x:Name="window"
