@@ -1,5 +1,5 @@
-﻿using RichCanvas.Helpers;
-using RichCanvas.Gestures;
+﻿using RichCanvasToa.Helpers;
+using RichCanvasToa.Gestures;
 using System;
 using System.Windows;
 using System.Windows.Controls;
@@ -12,7 +12,7 @@ using System.Collections.Specialized;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace RichCanvas
+namespace RichCanvasToa
 {
     /// <summary>
     /// ItemsControl hosting <see cref="RichCanvas"/>

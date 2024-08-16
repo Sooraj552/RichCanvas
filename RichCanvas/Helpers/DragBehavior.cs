@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Input;
 
-namespace RichCanvas.Helpers
+namespace RichCanvasToa.Helpers
 {
     internal static class DragBehavior
     {

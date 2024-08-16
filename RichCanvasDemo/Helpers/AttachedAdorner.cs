@@ -1,4 +1,4 @@
-﻿using RichCanvas;
+﻿using RichCanvasToa;
 using RichCanvasDemo.Adorners;
 using System.Collections.Generic;
 using System.Windows;

@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RichCanvas\RichCanvas.csproj" />
+    <ProjectReference Include="..\RichCanvas\RichCanvasToa.csproj" />
   </ItemGroup>
 
 </Project>

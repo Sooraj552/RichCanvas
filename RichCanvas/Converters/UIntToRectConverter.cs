@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
 
-namespace RichCanvas.Converters
+namespace RichCanvasToa.Converters
 {
     public class UIntToRectConverter : IValueConverter
     {

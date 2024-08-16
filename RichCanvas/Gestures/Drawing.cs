@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Media;
 
-namespace RichCanvas.Gestures
+namespace RichCanvasToa.Gestures
 {
     internal class Drawing
     {

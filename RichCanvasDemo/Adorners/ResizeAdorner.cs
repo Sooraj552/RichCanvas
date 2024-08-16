@@ -1,4 +1,4 @@
-﻿using RichCanvas;
+﻿using RichCanvasToa;
 using System;
 using System.Linq;
 using System.Windows;

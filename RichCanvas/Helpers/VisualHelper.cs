@@ -3,7 +3,7 @@ using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Media;
 
-namespace RichCanvas.Helpers
+namespace RichCanvasToa.Helpers
 {
     /// <summary>
     /// Helper wrapper on <see cref="VisualTreeHelper"/>
