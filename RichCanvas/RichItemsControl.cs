@@ -58,6 +58,11 @@ namespace RichCanvas
         public PanningGrid? ScrollContainer => _canvasContainer;
 
         /// <summary>
+        /// <see cref="Grid"/> panel.
+        /// </summary>
+        public RichCanvas? MainPanel => _mainPanel;
+
+        /// <summary>
         /// Gets or sets mouse position relative to <see cref="RichItemsControl.ItemsHost"/>.
         /// </summary>
         public static DependencyProperty MousePositionProperty = DependencyProperty.Register(nameof(MousePosition), typeof(Point), typeof(RichItemsControl), new FrameworkPropertyMetadata(default(Point)));
